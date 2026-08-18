@@ -1,0 +1,352 @@
+[
+  {
+    "id": "",
+    "name": "Player",
+    "slots": [
+      {
+        "name": "craft result",
+        "index": 0
+      },
+      {
+        "name": "craft grid",
+        "index": 1,
+        "size": 4
+      },
+      {
+        "name": "armor",
+        "index": 5,
+        "size": 4
+      },
+      {
+        "name": "helmet",
+        "index": 5
+      },
+      {
+        "name": "chestplate",
+        "index": 6
+      },
+      {
+        "name": "leggings",
+        "index": 7
+      },
+      {
+        "name": "boots",
+        "index": 8
+      },
+      {
+        "name": "inventory",
+        "index": 9,
+        "size": 27
+      },
+      {
+        "name": "hotbar",
+        "index": 36,
+        "size": 9
+      },
+      {
+        "name": "offhand",
+        "index": 45
+      }
+    ]
+  },
+  {
+    "id": "EntityHorse",
+    "name": "Horse",
+    "slots": [
+      {
+        "name": "saddle",
+        "index": 0
+      },
+      {
+        "name": "armor",
+        "index": 1
+      },
+      {
+        "name": "storage",
+        "index": 2,
+        "size": 15
+      }
+    ],
+    "openedWith": [
+      {
+        "type": "entity",
+        "id": 100
+      }
+    ]
+  },
+  {
+    "id": "minecraft:anvil",
+    "name": "Anvil",
+    "slots": [
+      {
+        "name": "tool",
+        "index": 0
+      },
+      {
+        "name": "combined",
+        "index": 1
+      },
+      {
+        "name": "result",
+        "index": 2
+      }
+    ],
+    "properties": [
+      "repair cost"
+    ]
+  },
+  {
+    "id": "minecraft:beacon",
+    "name": "Beacon",
+    "slots": [
+      {
+        "name": "input",
+        "index": 0
+      }
+    ],
+    "properties": [
+      "level",
+      "effect 1",
+      "effect 2"
+    ],
+    "openedWith": [
+      {
+        "type": "block",
+        "id": 138
+      }
+    ]
+  },
+  {
+    "id": "minecraft:brewing_stand",
+    "name": "Brewing Stand",
+    "slots": [
+      {
+        "name": "ingredient",
+        "index": 0
+      },
+      {
+        "name": "result",
+        "index": 1,
+        "size": 3
+      },
+      {
+        "name": "fuel",
+        "index": 4
+      }
+    ],
+    "properties": [
+      "brew time",
+      "fuel"
+    ],
+    "openedWith": [
+      {
+        "type": "block",
+        "id": 117
+      }
+    ]
+  },
+  {
+    "id": "minecraft:chest",
+    "name": "Chest"
+  },
+  {
+    "id": "minecraft:container",
+    "name": "Container"
+  },
+  {
+    "id": "minecraft:crafting_table",
+    "name": "Workbench",
+    "slots": [
+      {
+        "name": "craft result",
+        "index": 0
+      },
+      {
+        "name": "craft grid",
+        "index": 1,
+        "size": 9
+      }
+    ]
+  },
+  {
+    "id": "minecraft:dispenser",
+    "name": "Dispenser"
+  },
+  {
+    "id": "minecraft:dropper",
+    "name": "Dropper"
+  },
+  {
+    "id": "minecraft:enchanting_table",
+    "name": "Enchantment Table",
+    "slots": [
+      {
+        "name": "enchanted",
+        "index": 0
+      },
+      {
+        "name": "lapis",
+        "index": 1
+      }
+    ],
+    "properties": [
+      "xp 1",
+      "xp 2",
+      "xp 3",
+      "seed",
+      "tooltip 1",
+      "tooltip 2",
+      "tooltip 3"
+    ]
+  },
+  {
+    "id": "minecraft:furnace",
+    "name": "Furnace",
+    "slots": [
+      {
+        "name": "smelted",
+        "index": 0
+      },
+      {
+        "name": "fuel",
+        "index": 1
+      },
+      {
+        "name": "result",
+        "index": 2
+      }
+    ],
+    "properties": [
+      "fuel",
+      "fuel max",
+      "progress",
+      "progress max"
+    ]
+  },
+  {
+    "id": "minecraft:hopper",
+    "name": "Hopper"
+  },
+  {
+    "id": "minecraft:villager",
+    "name": "NPC Trade",
+    "slots": [
+      {
+        "name": "give 1",
+        "index": 0
+      },
+      {
+        "name": "give 2",
+        "index": 1
+      },
+      {
+        "name": "take",
+        "index": 2
+      }
+    ]
+  },
+  {
+    "id": "minecraft:shulker_box",
+    "name": "Shulker Box"
+  },
+  {
+    "id": "minecraft:blast_furnace",
+    "name": "Blast Furnace",
+    "slots": [
+      {
+        "name": "smelted",
+        "index": 0
+      },
+      {
+        "name": "fuel",
+        "index": 1
+      },
+      {
+        "name": "result",
+        "index": 2
+      }
+    ],
+    "properties": [
+      "fuel",
+      "fuel max",
+      "progress",
+      "progress max"
+    ]
+  },
+  {
+    "id": "minecraft:smoker",
+    "name": "Smoker",
+    "slots": [
+      {
+        "name": "smelted",
+        "index": 0
+      },
+      {
+        "name": "fuel",
+        "index": 1
+      },
+      {
+        "name": "result",
+        "index": 2
+      }
+    ],
+    "properties": [
+      "fuel",
+      "fuel max",
+      "progress",
+      "progress max"
+    ]
+  },
+  {
+    "id": "minecraft:cartography_table",
+    "name": "Cartography Table"
+  },
+  {
+    "id": "minecraft:grindstone",
+    "name": "Grindstone"
+  },
+  {
+    "id": "minecraft:lectern",
+    "name": "Lectern"
+  },
+  {
+    "id": "minecraft:loom",
+    "name": "Loom"
+  },
+  {
+    "id": "minecraft:stonecutter",
+    "name": "Stonecutter"
+  },
+  {
+    "id": "minecraft:smithing_table",
+    "name": "Smithing Table"
+  },
+  {
+    "id": "minecraft:generic_9x1",
+    "name": "Generic 9x1"
+  },
+  {
+    "id": "minecraft:generic_9x2",
+    "name": "Generic 9x2"
+  },
+  {
+    "id": "minecraft:generic_9x3",
+    "name": "Generic 9x3"
+  },
+  {
+    "id": "minecraft:generic_9x4",
+    "name": "Generic 9x4"
+  },
+  {
+    "id": "minecraft:generic_9x5",
+    "name": "Generic 9x5"
+  },
+  {
+    "id": "minecraft:generic_9x6",
+    "name": "Generic 9x6"
+  },
+  {
+    "id": "minecraft:generic_3x3",
+    "name": "Generic 3x3"
+  }
+]
