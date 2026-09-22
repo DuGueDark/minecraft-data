@@ -56,6 +56,14 @@
     "releaseType": "snapshot"
   },
   {
+    "minecraftVersion": "26.3",
+    "version": 777,
+    "dataVersion": 4904,
+    "usesNetty": true,
+    "majorVersion": "26.3",
+    "releaseType": "release"
+  },
+  {
     "minecraftVersion": "26.2",
     "version": 776,
     "dataVersion": 4903,

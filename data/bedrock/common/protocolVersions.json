@@ -1,5 +1,23 @@
 [
   {
+    "version": 2183,
+    "minecraftVersion": "1.26.60",
+    "majorVersion": "1.26",
+    "releaseType":  "release"
+  },
+  {
+    "version": 2182,
+    "minecraftVersion": "1.26.51",
+    "majorVersion": "1.26",
+    "releaseType":  "release"
+  },
+  {
+    "version": 2182,
+    "minecraftVersion": "1.26.51.1",
+    "majorVersion": "1.26",
+    "releaseType":  "release"
+  },
+  {
     "version": 2181,
     "minecraftVersion": "1.26.50",
     "majorVersion": "1.26",
