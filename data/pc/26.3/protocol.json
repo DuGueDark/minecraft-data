@@ -6914,6 +6914,18 @@
               "type": "f64"
             },
             {
+              "name": "dx",
+              "type": "f64"
+            },
+            {
+              "name": "dy",
+              "type": "f64"
+            },
+            {
+              "name": "dz",
+              "type": "f64"
+            },
+            {
               "name": "yaw",
               "type": "f32"
             },
