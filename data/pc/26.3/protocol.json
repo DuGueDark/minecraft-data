@@ -11396,17 +11396,11 @@
           [
             {
               "name": "primary_effect",
-              "type": [
-                "option",
-                "varint"
-              ]
+              "type": "varint"
             },
             {
               "name": "secondary_effect",
-              "type": [
-                "option",
-                "varint"
-              ]
+              "type": "varint"
             }
           ]
         ],
