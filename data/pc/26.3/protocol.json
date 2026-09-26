@@ -205,78 +205,343 @@
           "37": "blocks_attacks",
           "38": "piercing_weapon",
           "39": "kinetic_weapon",
-          "40": "swing_animation",
-          "41": "additional_trade_cost",
-          "42": "stored_enchantments",
-          "43": "dye",
-          "44": "dyed_color",
-          "45": "map_color",
-          "46": "map_id",
-          "47": "map_decorations",
-          "48": "map_post_processing",
-          "49": "charged_projectiles",
-          "50": "bundle_contents",
-          "51": "potion_contents",
-          "52": "potion_duration_scale",
-          "53": "suspicious_stew_effects",
-          "54": "writable_book_content",
-          "55": "written_book_content",
-          "56": "trim",
-          "57": "debug_stick_state",
-          "58": "entity_data",
-          "59": "bucket_entity_data",
-          "60": "block_entity_data",
-          "61": "instrument",
-          "62": "provides_trim_material",
-          "63": "ominous_bottle_amplifier",
-          "64": "jukebox_playable",
-          "65": "provides_banner_patterns",
-          "66": "recipes",
-          "67": "lodestone_tracker",
-          "68": "firework_explosion",
-          "69": "fireworks",
-          "70": "profile",
-          "71": "note_block_sound",
-          "72": "banner_patterns",
-          "73": "base_color",
-          "74": "pot_decorations",
-          "75": "container",
-          "76": "block_state",
-          "77": "bees",
-          "78": "lock",
-          "79": "container_loot",
-          "80": "break_sound",
-          "81": "villager/variant",
-          "82": "wolf/variant",
-          "83": "wolf/sound_variant",
-          "84": "wolf/collar",
-          "85": "fox/variant",
-          "86": "salmon/size",
-          "87": "parrot/variant",
-          "88": "tropical_fish/pattern",
-          "89": "tropical_fish/base_color",
-          "90": "tropical_fish/pattern_color",
-          "91": "mooshroom/variant",
-          "92": "rabbit/variant",
-          "93": "pig/variant",
-          "94": "pig/sound_variant",
-          "95": "cow/variant",
-          "96": "cow/sound_variant",
-          "97": "chicken/variant",
-          "98": "chicken/sound_variant",
-          "99": "zombie_nautilus/variant",
-          "100": "frog/variant",
-          "101": "horse/variant",
-          "102": "painting/variant",
-          "103": "llama/variant",
-          "104": "axolotl/variant",
-          "105": "cat/variant",
-          "106": "cat/sound_variant",
-          "107": "cat/collar",
-          "108": "sheep/color",
-          "109": "shulker/color"
+          "40": "attack_animation",
+          "41": "interact_animation",
+          "42": "additional_trade_cost",
+          "43": "block_transformer",
+          "44": "villager_food",
+          "45": "stored_enchantments",
+          "46": "dye",
+          "47": "dyed_color",
+          "48": "map_id",
+          "49": "map_decorations",
+          "50": "map_post_processing",
+          "51": "charged_projectiles",
+          "52": "bundle_contents",
+          "53": "potion_contents",
+          "54": "potion_duration_scale",
+          "55": "suspicious_stew_effects",
+          "56": "writable_book_content",
+          "57": "written_book_content",
+          "58": "trim",
+          "59": "debug_stick_state",
+          "60": "entity_data",
+          "61": "bucket_entity_data",
+          "62": "block_entity_data",
+          "63": "instrument",
+          "64": "provides_trim_material",
+          "65": "ominous_bottle_amplifier",
+          "66": "jukebox_playable",
+          "67": "provides_banner_patterns",
+          "68": "recipes",
+          "69": "lodestone_tracker",
+          "70": "firework_explosion",
+          "71": "fireworks",
+          "72": "profile",
+          "73": "note_block_sound",
+          "74": "banner_patterns",
+          "75": "base_color",
+          "76": "pot_decorations",
+          "77": "container",
+          "78": "block_state",
+          "79": "bees",
+          "80": "sulfur_cube_content",
+          "81": "lock",
+          "82": "container_loot",
+          "83": "break_sound",
+          "84": "compostable",
+          "85": "cooking_fuel",
+          "86": "brewing_fuel",
+          "87": "mob_visibility",
+          "88": "villager/variant",
+          "89": "wolf/variant",
+          "90": "wolf/sound_variant",
+          "91": "wolf/collar",
+          "92": "fox/variant",
+          "93": "salmon/size",
+          "94": "parrot/variant",
+          "95": "tropical_fish/pattern",
+          "96": "tropical_fish/base_color",
+          "97": "tropical_fish/pattern_color",
+          "98": "mooshroom/variant",
+          "99": "rabbit/variant",
+          "100": "pig/variant",
+          "101": "pig/sound_variant",
+          "102": "cow/variant",
+          "103": "cow/sound_variant",
+          "104": "chicken/variant",
+          "105": "chicken/sound_variant",
+          "106": "zombie_nautilus/variant",
+          "107": "frog/variant",
+          "108": "horse/variant",
+          "109": "painting/variant",
+          "110": "llama/variant",
+          "111": "axolotl/variant",
+          "112": "cat/variant",
+          "113": "cat/sound_variant",
+          "114": "cat/collar",
+          "115": "sheep/color",
+          "116": "shulker/color",
+          "117": "provides_pottery_pattern",
+          "118": "sign_text_front",
+          "119": "sign_text_back",
+          "120": "waxed",
+          "121": "cushion/color"
         }
       }
+    ],
+    "ItemSwingAnimation": [
+      "container",
+      [
+        {
+          "name": "type",
+          "type": [
+            "mapper",
+            {
+              "type": "varint",
+              "mappings": {
+                "0": "none",
+                "1": "whack",
+                "2": "stab"
+              }
+            }
+          ]
+        },
+        {
+          "name": "duration",
+          "type": "varint"
+        }
+      ]
+    ],
+    "ResolvableInt": [
+      "container",
+      [
+        {
+          "name": "constant",
+          "type": "bool"
+        },
+        {
+          "name": "value",
+          "type": [
+            "switch",
+            {
+              "compareTo": "constant",
+              "fields": {
+                "true": "i32",
+                "false": "string"
+              }
+            }
+          ]
+        }
+      ]
+    ],
+    "ResolvableFloat": [
+      "container",
+      [
+        {
+          "name": "constant",
+          "type": "bool"
+        },
+        {
+          "name": "value",
+          "type": [
+            "switch",
+            {
+              "compareTo": "constant",
+              "fields": {
+                "true": "f32",
+                "false": "string"
+              }
+            }
+          ]
+        }
+      ]
+    ],
+    "BlockTransformParticle": [
+      "mapper",
+      {
+        "type": "varint",
+        "mappings": {
+          "0": "none",
+          "1": "scrape",
+          "2": "wax_on",
+          "3": "wax_off"
+        }
+      }
+    ],
+    "BlockTransformType": [
+      "mapper",
+      {
+        "type": "varint",
+        "mappings": {
+          "0": "single_block",
+          "1": "copper_chest"
+        }
+      }
+    ],
+    "BlockTransformDropStrategy": [
+      "mapper",
+      {
+        "type": "varint",
+        "mappings": {
+          "0": "clicked_face",
+          "1": "from_middle"
+        }
+      }
+    ],
+    "BlockTransformData": [
+      "container",
+      [
+        {
+          "name": "blockStateProvider",
+          "type": [
+            "registryEntryHolder",
+            {
+              "baseName": "stateProviderId",
+              "otherwise": {
+                "name": "data",
+                "type": "void"
+              }
+            }
+          ]
+        },
+        {
+          "name": "sound",
+          "type": [
+            "registryEntryHolder",
+            {
+              "baseName": "soundId",
+              "otherwise": {
+                "name": "data",
+                "type": "void"
+              }
+            }
+          ]
+        },
+        {
+          "name": "particle",
+          "type": "BlockTransformParticle"
+        },
+        {
+          "name": "disallowedFaces",
+          "type": [
+            "array",
+            {
+              "countType": "varint",
+              "type": "varint"
+            }
+          ]
+        },
+        {
+          "name": "loot",
+          "type": [
+            "option",
+            "string"
+          ]
+        },
+        {
+          "name": "dropStrategy",
+          "type": "BlockTransformDropStrategy"
+        },
+        {
+          "name": "updateFromNeighbors",
+          "type": "bool"
+        },
+        {
+          "name": "transformType",
+          "type": "BlockTransformType"
+        },
+        {
+          "name": "consumeOnUse",
+          "type": "bool"
+        },
+        {
+          "name": "itemDamagePerUse",
+          "type": "varint"
+        }
+      ]
+    ],
+    "VillagerFood": [
+      "container",
+      [
+        {
+          "name": "nutrition",
+          "type": "varint"
+        }
+      ]
+    ],
+    "BlockTransformerData": [
+      "array",
+      {
+        "countType": "varint",
+        "type": "BlockTransformData"
+      }
+    ],
+    "PotDecorations": [
+      "container",
+      [
+        {
+          "name": "back",
+          "type": [
+            "option",
+            "ItemStackTemplate"
+          ]
+        },
+        {
+          "name": "left",
+          "type": [
+            "option",
+            "ItemStackTemplate"
+          ]
+        },
+        {
+          "name": "right",
+          "type": [
+            "option",
+            "ItemStackTemplate"
+          ]
+        },
+        {
+          "name": "front",
+          "type": [
+            "option",
+            "ItemStackTemplate"
+          ]
+        }
+      ]
+    ],
+    "SignText": [
+      "container",
+      [
+        {
+          "name": "messages",
+          "type": [
+            "array",
+            {
+              "count": 4,
+              "type": "anonymousNbt"
+            }
+          ]
+        },
+        {
+          "name": "filteredMessages",
+          "type": [
+            "array",
+            {
+              "count": 4,
+              "type": "anonymousNbt"
+            }
+          ]
+        },
+        {
+          "name": "color",
+          "type": "DyeColor"
+        },
+        {
+          "name": "hasGlowingText",
+          "type": "bool"
+        }
+      ]
     ],
     "SlotComponent": [
       "container",
@@ -1058,6 +1323,57 @@
                     }
                   ]
                 ],
+                "attack_animation": "ItemSwingAnimation",
+                "interact_animation": "ItemSwingAnimation",
+                "additional_trade_cost": "varint",
+                "block_transformer": "varint",
+                "villager_food": "VillagerFood",
+                "sulfur_cube_content": "ItemStackTemplate",
+                "compostable": "ResolvableInt",
+                "cooking_fuel": [
+                  "container",
+                  [
+                    {
+                      "name": "burnTime",
+                      "type": "ResolvableInt"
+                    },
+                    {
+                      "name": "speedMultiplier",
+                      "type": "ResolvableFloat"
+                    }
+                  ]
+                ],
+                "brewing_fuel": [
+                  "container",
+                  [
+                    {
+                      "name": "uses",
+                      "type": "ResolvableInt"
+                    },
+                    {
+                      "name": "speedMultiplier",
+                      "type": "ResolvableFloat"
+                    }
+                  ]
+                ],
+                "mob_visibility": [
+                  "container",
+                  [
+                    {
+                      "name": "targetingEntityTypes",
+                      "type": "IDSet"
+                    },
+                    {
+                      "name": "visibility",
+                      "type": "f32"
+                    }
+                  ]
+                ],
+                "provides_pottery_pattern": "varint",
+                "sign_text_front": "SignText",
+                "sign_text_back": "SignText",
+                "waxed": "void",
+                "cushion/color": "DyeColor",
                 "swing_animation": [
                   "container",
                   [
@@ -1081,7 +1397,6 @@
                     }
                   ]
                 ],
-                "additional_trade_cost": "varint",
                 "dye": "DyeColor",
                 "dyed_color": "i32",
                 "map_color": "i32",
@@ -1295,100 +1610,37 @@
                 ],
                 "bucket_entity_data": "anonymousNbt",
                 "instrument": [
-                  "container",
-                  [
-                    {
-                      "name": "hasHolder",
-                      "type": "bool"
-                    },
-                    {
+                  "registryEntryHolder",
+                  {
+                    "baseName": "instrumentId",
+                    "otherwise": {
                       "name": "data",
-                      "type": [
-                        "switch",
-                        {
-                          "compareTo": "hasHolder",
-                          "fields": {
-                            "true": [
-                              "registryEntryHolder",
-                              {
-                                "baseName": "instrumentId",
-                                "otherwise": {
-                                  "name": "data",
-                                  "type": "InstrumentData"
-                                }
-                              }
-                            ],
-                            "false": "string"
-                          }
-                        }
-                      ]
+                      "type": "InstrumentData"
                     }
-                  ]
+                  }
                 ],
                 "provides_trim_material": [
-                  "container",
-                  [
-                    {
-                      "name": "hasHolder",
-                      "type": "bool"
-                    },
-                    {
-                      "name": "material",
-                      "type": [
-                        "switch",
-                        {
-                          "compareTo": "hasHolder",
-                          "fields": {
-                            "true": [
-                              "registryEntryHolder",
-                              {
-                                "baseName": "materialId",
-                                "otherwise": {
-                                  "name": "data",
-                                  "type": "ArmorTrimMaterial"
-                                }
-                              }
-                            ],
-                            "false": "string"
-                          }
-                        }
-                      ]
+                  "registryEntryHolder",
+                  {
+                    "baseName": "materialId",
+                    "otherwise": {
+                      "name": "data",
+                      "type": "ArmorTrimMaterial"
                     }
-                  ]
+                  }
                 ],
                 "ominous_bottle_amplifier": "varint",
                 "jukebox_playable": [
-                  "container",
-                  [
-                    {
-                      "name": "hasHolder",
-                      "type": "bool"
-                    },
-                    {
-                      "name": "song",
-                      "type": [
-                        "switch",
-                        {
-                          "compareTo": "hasHolder",
-                          "fields": {
-                            "true": [
-                              "registryEntryHolder",
-                              {
-                                "baseName": "songId",
-                                "otherwise": {
-                                  "name": "data",
-                                  "type": "JukeboxSongData"
-                                }
-                              }
-                            ],
-                            "false": "string"
-                          }
-                        }
-                      ]
+                  "registryEntryHolder",
+                  {
+                    "baseName": "songId",
+                    "otherwise": {
+                      "name": "data",
+                      "type": "JukeboxSongData"
                     }
-                  ]
+                  }
                 ],
-                "provides_banner_patterns": "string",
+                "provides_banner_patterns": "IDSet",
                 "recipes": "anonymousNbt",
                 "lodestone_tracker": [
                   "container",
@@ -1444,21 +1696,7 @@
                   ]
                 ],
                 "base_color": "DyeColor",
-                "pot_decorations": [
-                  "container",
-                  [
-                    {
-                      "name": "decorations",
-                      "type": [
-                        "array",
-                        {
-                          "countType": "varint",
-                          "type": "varint"
-                        }
-                      ]
-                    }
-                  ]
-                ],
+                "pot_decorations": "PotDecorations",
                 "container": [
                   "container",
                   [
@@ -1517,8 +1755,20 @@
                             "container",
                             [
                               {
-                                "name": "nbtData",
-                                "type": "anonymousNbt"
+                                "name": "entityData",
+                                "type": [
+                                  "container",
+                                  [
+                                    {
+                                      "name": "type",
+                                      "type": "varint"
+                                    },
+                                    {
+                                      "name": "data",
+                                      "type": "anonymousNbt"
+                                    }
+                                  ]
+                                ]
                               },
                               {
                                 "name": "ticksInHive",
@@ -1554,36 +1804,9 @@
                 "pig/sound_variant": "varint",
                 "cow/variant": "varint",
                 "cow/sound_variant": "varint",
-                "chicken/variant": [
-                  "registryEntryHolder",
-                  {
-                    "baseName": "variantId",
-                    "otherwise": {
-                      "name": "variantData",
-                      "type": "string"
-                    }
-                  }
-                ],
-                "chicken/sound_variant": [
-                  "registryEntryHolder",
-                  {
-                    "baseName": "variantId",
-                    "otherwise": {
-                      "name": "variantData",
-                      "type": "string"
-                    }
-                  }
-                ],
-                "zombie_nautilus/variant": [
-                  "registryEntryHolder",
-                  {
-                    "baseName": "variantId",
-                    "otherwise": {
-                      "name": "variantData",
-                      "type": "string"
-                    }
-                  }
-                ],
+                "chicken/variant": "varint",
+                "chicken/sound_variant": "varint",
+                "zombie_nautilus/variant": "varint",
                 "frog/variant": "varint",
                 "horse/variant": "varint",
                 "painting/variant": [
@@ -1958,30 +2181,8 @@
       "container",
       [
         {
-          "name": "assetBase",
+          "name": "paletteId",
           "type": "string"
-        },
-        {
-          "name": "overrideArmorAssets",
-          "type": [
-            "array",
-            {
-              "countType": "varint",
-              "type": [
-                "container",
-                [
-                  {
-                    "name": "key",
-                    "type": "string"
-                  },
-                  {
-                    "name": "value",
-                    "type": "string"
-                  }
-                ]
-              ]
-            }
-          ]
         },
         {
           "name": "description",
@@ -2020,6 +2221,10 @@
         {
           "name": "range",
           "type": "f32"
+        },
+        {
+          "name": "durabilityDamage",
+          "type": "varint"
         },
         {
           "name": "description",
@@ -5317,6 +5522,10 @@
                   ]
                 }
               ]
+            },
+            {
+              "name": "sessionId",
+              "type": "UUID"
             }
           ]
         ],
@@ -6902,28 +7111,8 @@
               "type": "varint"
             },
             {
-              "name": "x",
-              "type": "f64"
-            },
-            {
-              "name": "y",
-              "type": "f64"
-            },
-            {
-              "name": "z",
-              "type": "f64"
-            },
-            {
-              "name": "dx",
-              "type": "f64"
-            },
-            {
-              "name": "dy",
-              "type": "f64"
-            },
-            {
-              "name": "dz",
-              "type": "f64"
+              "name": "position",
+              "type": "positionPath"
             },
             {
               "name": "yaw",
@@ -7459,6 +7648,10 @@
               "type": "SpawnInfo"
             },
             {
+              "name": "onlineMode",
+              "type": "bool"
+            },
+            {
               "name": "enforcesSecureChat",
               "type": "bool"
             }
@@ -7708,20 +7901,8 @@
               "type": "varint"
             },
             {
-              "name": "dX",
-              "type": "i16"
-            },
-            {
-              "name": "dY",
-              "type": "i16"
-            },
-            {
-              "name": "dZ",
-              "type": "i16"
-            },
-            {
-              "name": "onGround",
-              "type": "bool"
+              "name": "delta",
+              "type": "vecDelta"
             }
           ]
         ],
@@ -7733,16 +7914,8 @@
               "type": "varint"
             },
             {
-              "name": "dX",
-              "type": "i16"
-            },
-            {
-              "name": "dY",
-              "type": "i16"
-            },
-            {
-              "name": "dZ",
-              "type": "i16"
+              "name": "delta",
+              "type": "vecDelta"
             },
             {
               "name": "yaw",
@@ -7751,10 +7924,6 @@
             {
               "name": "pitch",
               "type": "i8"
-            },
-            {
-              "name": "onGround",
-              "type": "bool"
             }
           ]
         ],
@@ -7809,16 +7978,16 @@
               "type": "varint"
             },
             {
+              "name": "onGround",
+              "type": "bool"
+            },
+            {
               "name": "yaw",
               "type": "i8"
             },
             {
               "name": "pitch",
               "type": "i8"
-            },
-            {
-              "name": "onGround",
-              "type": "bool"
             }
           ]
         ],
@@ -8345,6 +8514,15 @@
             {
               "name": "relativePitch",
               "type": "bool"
+            }
+          ]
+        ],
+        "packet_opaque": [
+          "container",
+          [
+            {
+              "name": "data",
+              "type": "restBuffer"
             }
           ]
         ],
@@ -10365,7 +10543,7 @@
                     "face_player": "packet_face_player",
                     "position": "packet_position",
                     "player_rotation": "packet_player_rotation",
-                    "recipe_book_add": "packet_recipe_book_add",
+                    "recipe_book_add": "packet_opaque",
                     "recipe_book_remove": "packet_recipe_book_remove",
                     "recipe_book_settings": "packet_recipe_book_settings",
                     "entity_destroy": "packet_entity_destroy",
@@ -10423,7 +10601,7 @@
                     "set_ticking_state": "packet_set_ticking_state",
                     "step_tick": "packet_step_tick",
                     "transfer": "packet_common_transfer",
-                    "advancements": "packet_advancements",
+                    "advancements": "packet_opaque",
                     "entity_update_attributes": "packet_entity_update_attributes",
                     "entity_effect": "packet_entity_effect",
                     "declare_recipes": "packet_declare_recipes",
@@ -11408,11 +11586,17 @@
           [
             {
               "name": "primary_effect",
-              "type": "varint"
+              "type": [
+                "option",
+                "varint"
+              ]
             },
             {
               "name": "secondary_effect",
-              "type": "varint"
+              "type": [
+                "option",
+                "varint"
+              ]
             }
           ]
         ],
@@ -11659,18 +11843,16 @@
           [
             {
               "name": "entityId",
-              "type": "varint"
+              "type": [
+                "option",
+                "varint"
+              ]
             }
           ]
         ],
         "packet_arm_animation": [
           "container",
-          [
-            {
-              "name": "hand",
-              "type": "varint"
-            }
-          ]
+          []
         ],
         "packet_spectate": [
           "container",
@@ -11846,24 +12028,24 @@
                     "0x2b": "player_input",
                     "0x2c": "player_loaded",
                     "0x2d": "pong",
-                    "0x2e": "recipe_book",
-                    "0x2f": "displayed_recipe",
-                    "0x30": "name_item",
-                    "0x31": "resource_pack_receive",
-                    "0x32": "advancement_tab",
-                    "0x33": "select_trade",
-                    "0x34": "set_beacon_effect",
-                    "0x35": "held_item_slot",
-                    "0x36": "update_command_block",
-                    "0x37": "update_command_block_minecart",
-                    "0x38": "set_creative_slot",
-                    "0x39": "set_game_rule",
-                    "0x3a": "update_jigsaw_block",
-                    "0x3b": "update_structure_block",
-                    "0x3c": "set_test_block",
-                    "0x3d": "update_sign",
-                    "0x3e": "spectate_entity",
-                    "0x3f": "arm_animation",
+                    "0x2e": "arm_animation",
+                    "0x2f": "recipe_book",
+                    "0x30": "displayed_recipe",
+                    "0x31": "name_item",
+                    "0x32": "resource_pack_receive",
+                    "0x33": "advancement_tab",
+                    "0x34": "select_trade",
+                    "0x35": "set_beacon_effect",
+                    "0x36": "held_item_slot",
+                    "0x37": "update_command_block",
+                    "0x38": "update_command_block_minecart",
+                    "0x39": "set_creative_slot",
+                    "0x3a": "set_game_rule",
+                    "0x3b": "update_jigsaw_block",
+                    "0x3c": "update_structure_block",
+                    "0x3d": "set_test_block",
+                    "0x3e": "update_sign",
+                    "0x3f": "spectate_entity",
                     "0x40": "spectate",
                     "0x41": "test_instance_block_action",
                     "0x42": "block_place",
