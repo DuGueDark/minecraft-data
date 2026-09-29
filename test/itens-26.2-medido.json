@@ -1,0 +1,27 @@
+{
+  "versao": "26.2",
+  "como": "ids das tabelas mappings-26.1to26.2.nbt e mappings-26.2to26.3.nbt do ViaVersion 5.12.0 (o mesmo componente que traduz o pacote); nomes do estático 26.1 e 26.3",
+  "tabela": "ViaVersion 5.12.0 · assets/viaversion/data/mappings-26.*.nbt",
+  "total": 1537,
+  "idMaximo": 1536,
+  "shaMapa": "15d1b46d5104240ee69c5e2e53418c30efb040cd8ffc5878d0b5258566530680",
+  "testemunhas": {
+    "air": 0,
+    "stone": 1,
+    "oak_planks": 63,
+    "birch_planks": 65,
+    "birch_log": 163,
+    "diamond": 926,
+    "oak_log": 161,
+    "cooked_beef": 1140,
+    "diamond_sword": 964,
+    "golden_apple": 1014,
+    "netherite_ingot": 937,
+    "saddle": 865,
+    "beetroot_soup": 1319,
+    "bundle": 1065,
+    "spyglass": 1084,
+    "brush": 1457,
+    "trial_key": 1533
+  }
+}
