@@ -1800,6 +1800,14 @@
       "version": "pc/26.3",
       "windows": "pc/26.3",
       "proto": "pc/26.3"
+    },
+    "26.4": {
+      "protocol": "pc/26.4",
+      "attributes": "pc/26.3",
+      "blockCollisionShapes": "pc/26.3",
+      "blocks": "pc/26.3",
+      "items": "pc/26.3",
+      "version": "pc/26.3"
     }
   },
   "bedrock": {
