@@ -1603,6 +1603,19 @@
             }
           ]
         ],
+        "packet_custom_payload": [
+          "container",
+          [
+            {
+              "name": "channel",
+              "type": "string"
+            },
+            {
+              "name": "data",
+              "type": "restBuffer"
+            }
+          ]
+        ],
         "packet": [
           "container",
           [
@@ -1617,7 +1630,8 @@
                     "0x01": "encryption_begin",
                     "0x02": "success",
                     "0x03": "compress",
-                    "0x04": "login_plugin_request"
+                    "0x04": "login_plugin_request",
+                    "0x05": "custom_payload"
                   }
                 }
               ]
@@ -1633,7 +1647,8 @@
                     "encryption_begin": "packet_encryption_begin",
                     "success": "packet_success",
                     "compress": "packet_compress",
-                    "login_plugin_request": "packet_login_plugin_request"
+                    "login_plugin_request": "packet_login_plugin_request",
+                    "custom_payload": "packet_custom_payload"
                   }
                 }
               ]
@@ -1691,11 +1706,28 @@
               "type": "varint"
             },
             {
+              "name": "successful",
+              "type": "bool"
+            },
+            {
               "name": "data",
               "type": [
                 "option",
                 "restBuffer"
               ]
+            }
+          ]
+        ],
+        "packet_custom_payload": [
+          "container",
+          [
+            {
+              "name": "channel",
+              "type": "string"
+            },
+            {
+              "name": "data",
+              "type": "restBuffer"
             }
           ]
         ],
@@ -1711,7 +1743,8 @@
                   "mappings": {
                     "0x00": "login_start",
                     "0x01": "encryption_begin",
-                    "0x02": "login_plugin_response"
+                    "0x02": "login_plugin_response",
+                    "0x03": "custom_payload"
                   }
                 }
               ]
@@ -1725,7 +1758,8 @@
                   "fields": {
                     "login_start": "packet_login_start",
                     "encryption_begin": "packet_encryption_begin",
-                    "login_plugin_response": "packet_login_plugin_response"
+                    "login_plugin_response": "packet_login_plugin_response",
+                    "custom_payload": "packet_custom_payload"
                   }
                 }
               ]
