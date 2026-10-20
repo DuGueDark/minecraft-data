@@ -1,0 +1,20 @@
+{
+ "descricao": "Ordem de REGISTRO das particulas na 26.3, medida no jar do servidor 26.3 (net/minecraft/core/particles/ParticleTypes, <clinit>: 128 entradas). O indice do protocolo e a posicao (0-based) nessa ordem.",
+ "origem": "server-26.3.jar (net/minecraft/core/particles/ParticleTypes, <clinit>)",
+ "medidoEm": "2026-10-20",
+ "sha": "dd32d2cce66c64b7ceb84c13baa4e6bcb7c2c6e7c2c5755295da97a93b49b998",
+ "testemunhas": {
+  "4": "sulfur_bubbles",
+  "5": "noxious_gas",
+  "6": "noxious_gas_cloud",
+  "7": "geyser",
+  "8": "geyser_base",
+  "9": "geyser_poof",
+  "10": "geyser_plume",
+  "11": "cloud",
+  "27": "end_rod",
+  "28": "entity_effect",
+  "35": "sonic_boom",
+  "127": "sulfur_cube_goo"
+ }
+}
