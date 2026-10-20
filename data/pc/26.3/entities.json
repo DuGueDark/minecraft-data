@@ -958,6 +958,27 @@
   {
     "id": 33,
     "internalId": 33,
+    "name": "cushion",
+    "displayName": "Cushion",
+    "width": 1.0,
+    "height": 0.25,
+    "type": "other",
+    "category": "UNKNOWN",
+    "metadataKeys": [
+      "shared_flags",
+      "air_supply",
+      "custom_name",
+      "custom_name_visible",
+      "silent",
+      "no_gravity",
+      "pose",
+      "ticks_frozen",
+      "item"
+    ]
+  },
+  {
+    "id": 34,
+    "internalId": 34,
     "name": "dark_oak_boat",
     "displayName": "Dark Oak Boat",
     "width": 1.375,
@@ -982,8 +1003,8 @@
     ]
   },
   {
-    "id": 34,
-    "internalId": 34,
+    "id": 35,
+    "internalId": 35,
     "name": "dark_oak_chest_boat",
     "displayName": "Dark Oak Boat with Chest",
     "width": 1.375,
@@ -1008,8 +1029,8 @@
     ]
   },
   {
-    "id": 35,
-    "internalId": 35,
+    "id": 36,
+    "internalId": 36,
     "name": "dolphin",
     "displayName": "Dolphin",
     "width": 0.9,
@@ -1040,8 +1061,8 @@
     ]
   },
   {
-    "id": 36,
-    "internalId": 36,
+    "id": 37,
+    "internalId": 37,
     "name": "donkey",
     "displayName": "Donkey",
     "width": 1.3964844,
@@ -1072,8 +1093,8 @@
     ]
   },
   {
-    "id": 37,
-    "internalId": 37,
+    "id": 38,
+    "internalId": 38,
     "name": "dragon_fireball",
     "displayName": "Dragon Fireball",
     "width": 1.0,
@@ -1092,8 +1113,8 @@
     ]
   },
   {
-    "id": 38,
-    "internalId": 38,
+    "id": 39,
+    "internalId": 39,
     "name": "drowned",
     "displayName": "Drowned",
     "width": 0.6,
@@ -1123,8 +1144,8 @@
     ]
   },
   {
-    "id": 39,
-    "internalId": 39,
+    "id": 40,
+    "internalId": 40,
     "name": "egg",
     "displayName": "Thrown Egg",
     "width": 0.25,
@@ -1144,8 +1165,8 @@
     ]
   },
   {
-    "id": 40,
-    "internalId": 40,
+    "id": 41,
+    "internalId": 41,
     "name": "elder_guardian",
     "displayName": "Elder Guardian",
     "width": 1.9975,
@@ -1174,8 +1195,8 @@
     ]
   },
   {
-    "id": 41,
-    "internalId": 41,
+    "id": 42,
+    "internalId": 42,
     "name": "enderman",
     "displayName": "Enderman",
     "width": 0.6,
@@ -1205,8 +1226,8 @@
     ]
   },
   {
-    "id": 42,
-    "internalId": 42,
+    "id": 43,
+    "internalId": 43,
     "name": "endermite",
     "displayName": "Endermite",
     "width": 0.4,
@@ -1233,8 +1254,8 @@
     ]
   },
   {
-    "id": 43,
-    "internalId": 43,
+    "id": 44,
+    "internalId": 44,
     "name": "ender_dragon",
     "displayName": "Ender Dragon",
     "width": 16.0,
@@ -1262,8 +1283,8 @@
     ]
   },
   {
-    "id": 44,
-    "internalId": 44,
+    "id": 45,
+    "internalId": 45,
     "name": "ender_pearl",
     "displayName": "Thrown Ender Pearl",
     "width": 0.25,
@@ -1283,8 +1304,8 @@
     ]
   },
   {
-    "id": 45,
-    "internalId": 45,
+    "id": 46,
+    "internalId": 46,
     "name": "end_crystal",
     "displayName": "End Crystal",
     "width": 2.0,
@@ -1305,8 +1326,8 @@
     ]
   },
   {
-    "id": 46,
-    "internalId": 46,
+    "id": 47,
+    "internalId": 47,
     "name": "evoker",
     "displayName": "Evoker",
     "width": 0.6,
@@ -1335,8 +1356,8 @@
     ]
   },
   {
-    "id": 47,
-    "internalId": 47,
+    "id": 48,
+    "internalId": 48,
     "name": "evoker_fangs",
     "displayName": "Evoker Fangs",
     "width": 0.5,
@@ -1355,8 +1376,8 @@
     ]
   },
   {
-    "id": 48,
-    "internalId": 48,
+    "id": 49,
+    "internalId": 49,
     "name": "experience_bottle",
     "displayName": "Thrown Bottle o' Enchanting",
     "width": 0.25,
@@ -1376,8 +1397,8 @@
     ]
   },
   {
-    "id": 49,
-    "internalId": 49,
+    "id": 50,
+    "internalId": 50,
     "name": "experience_orb",
     "displayName": "Experience Orb",
     "width": 0.5,
@@ -1397,8 +1418,8 @@
     ]
   },
   {
-    "id": 50,
-    "internalId": 50,
+    "id": 51,
+    "internalId": 51,
     "name": "eye_of_ender",
     "displayName": "Eye of Ender",
     "width": 0.25,
@@ -1418,8 +1439,8 @@
     ]
   },
   {
-    "id": 51,
-    "internalId": 51,
+    "id": 52,
+    "internalId": 52,
     "name": "falling_block",
     "displayName": "Falling Block",
     "width": 0.98,
@@ -1439,8 +1460,8 @@
     ]
   },
   {
-    "id": 52,
-    "internalId": 52,
+    "id": 53,
+    "internalId": 53,
     "name": "fireball",
     "displayName": "Fireball",
     "width": 1.0,
@@ -1460,8 +1481,8 @@
     ]
   },
   {
-    "id": 53,
-    "internalId": 53,
+    "id": 54,
+    "internalId": 54,
     "name": "firework_rocket",
     "displayName": "Firework Rocket",
     "width": 0.25,
@@ -1483,8 +1504,8 @@
     ]
   },
   {
-    "id": 54,
-    "internalId": 54,
+    "id": 55,
+    "internalId": 55,
     "name": "fox",
     "displayName": "Fox",
     "width": 0.6,
@@ -1517,8 +1538,8 @@
     ]
   },
   {
-    "id": 55,
-    "internalId": 55,
+    "id": 56,
+    "internalId": 56,
     "name": "frog",
     "displayName": "Frog",
     "width": 0.5,
@@ -1549,8 +1570,8 @@
     ]
   },
   {
-    "id": 56,
-    "internalId": 56,
+    "id": 57,
+    "internalId": 57,
     "name": "furnace_minecart",
     "displayName": "Minecart with Furnace",
     "width": 0.98,
@@ -1575,8 +1596,8 @@
     ]
   },
   {
-    "id": 57,
-    "internalId": 57,
+    "id": 58,
+    "internalId": 58,
     "name": "ghast",
     "displayName": "Ghast",
     "width": 4.0,
@@ -1604,8 +1625,8 @@
     ]
   },
   {
-    "id": 58,
-    "internalId": 58,
+    "id": 59,
+    "internalId": 59,
     "name": "happy_ghast",
     "displayName": "Happy Ghast",
     "width": 4.0,
@@ -1636,8 +1657,8 @@
     ]
   },
   {
-    "id": 59,
-    "internalId": 59,
+    "id": 60,
+    "internalId": 60,
     "name": "giant",
     "displayName": "Giant",
     "width": 3.6,
@@ -1664,8 +1685,8 @@
     ]
   },
   {
-    "id": 60,
-    "internalId": 60,
+    "id": 61,
+    "internalId": 61,
     "name": "glow_item_frame",
     "displayName": "Glow Item Frame",
     "width": 0.5,
@@ -1687,8 +1708,8 @@
     ]
   },
   {
-    "id": 61,
-    "internalId": 61,
+    "id": 62,
+    "internalId": 62,
     "name": "glow_squid",
     "displayName": "Glow Squid",
     "width": 0.8,
@@ -1718,8 +1739,8 @@
     ]
   },
   {
-    "id": 62,
-    "internalId": 62,
+    "id": 63,
+    "internalId": 63,
     "name": "goat",
     "displayName": "Goat",
     "width": 0.9,
@@ -1751,8 +1772,8 @@
     ]
   },
   {
-    "id": 63,
-    "internalId": 63,
+    "id": 64,
+    "internalId": 64,
     "name": "guardian",
     "displayName": "Guardian",
     "width": 0.85,
@@ -1781,8 +1802,8 @@
     ]
   },
   {
-    "id": 64,
-    "internalId": 64,
+    "id": 65,
+    "internalId": 65,
     "name": "hoglin",
     "displayName": "Hoglin",
     "width": 1.3964844,
@@ -1812,8 +1833,8 @@
     ]
   },
   {
-    "id": 65,
-    "internalId": 65,
+    "id": 66,
+    "internalId": 66,
     "name": "hopper_minecart",
     "displayName": "Minecart with Hopper",
     "width": 0.98,
@@ -1837,8 +1858,8 @@
     ]
   },
   {
-    "id": 66,
-    "internalId": 66,
+    "id": 67,
+    "internalId": 67,
     "name": "horse",
     "displayName": "Horse",
     "width": 1.3964844,
@@ -1869,8 +1890,8 @@
     ]
   },
   {
-    "id": 67,
-    "internalId": 67,
+    "id": 68,
+    "internalId": 68,
     "name": "husk",
     "displayName": "Husk",
     "width": 0.6,
@@ -1900,8 +1921,8 @@
     ]
   },
   {
-    "id": 68,
-    "internalId": 68,
+    "id": 69,
+    "internalId": 69,
     "name": "illusioner",
     "displayName": "Illusioner",
     "width": 0.6,
@@ -1930,8 +1951,8 @@
     ]
   },
   {
-    "id": 69,
-    "internalId": 69,
+    "id": 70,
+    "internalId": 70,
     "name": "interaction",
     "displayName": "Interaction",
     "width": 0.0,
@@ -1953,8 +1974,8 @@
     ]
   },
   {
-    "id": 70,
-    "internalId": 70,
+    "id": 71,
+    "internalId": 71,
     "name": "iron_golem",
     "displayName": "Iron Golem",
     "width": 1.4,
@@ -1982,8 +2003,8 @@
     ]
   },
   {
-    "id": 71,
-    "internalId": 71,
+    "id": 72,
+    "internalId": 72,
     "name": "item",
     "displayName": "Item",
     "width": 0.25,
@@ -2003,8 +2024,8 @@
     ]
   },
   {
-    "id": 72,
-    "internalId": 72,
+    "id": 73,
+    "internalId": 73,
     "name": "item_display",
     "displayName": "Item Display",
     "width": 0.0,
@@ -2040,8 +2061,8 @@
     ]
   },
   {
-    "id": 73,
-    "internalId": 73,
+    "id": 74,
+    "internalId": 74,
     "name": "item_frame",
     "displayName": "Item Frame",
     "width": 0.5,
@@ -2063,8 +2084,8 @@
     ]
   },
   {
-    "id": 74,
-    "internalId": 74,
+    "id": 75,
+    "internalId": 75,
     "name": "jungle_boat",
     "displayName": "Jungle Boat",
     "width": 1.375,
@@ -2089,8 +2110,8 @@
     ]
   },
   {
-    "id": 75,
-    "internalId": 75,
+    "id": 76,
+    "internalId": 76,
     "name": "jungle_chest_boat",
     "displayName": "Jungle Boat with Chest",
     "width": 1.375,
@@ -2115,8 +2136,8 @@
     ]
   },
   {
-    "id": 76,
-    "internalId": 76,
+    "id": 77,
+    "internalId": 77,
     "name": "leash_knot",
     "displayName": "Leash Knot",
     "width": 0.375,
@@ -2135,8 +2156,8 @@
     ]
   },
   {
-    "id": 77,
-    "internalId": 77,
+    "id": 78,
+    "internalId": 78,
     "name": "lightning_bolt",
     "displayName": "Lightning Bolt",
     "width": 0.0,
@@ -2155,8 +2176,8 @@
     ]
   },
   {
-    "id": 78,
-    "internalId": 78,
+    "id": 79,
+    "internalId": 79,
     "name": "llama",
     "displayName": "Llama",
     "width": 0.9,
@@ -2189,8 +2210,8 @@
     ]
   },
   {
-    "id": 79,
-    "internalId": 79,
+    "id": 80,
+    "internalId": 80,
     "name": "llama_spit",
     "displayName": "Llama Spit",
     "width": 0.25,
@@ -2209,8 +2230,8 @@
     ]
   },
   {
-    "id": 80,
-    "internalId": 80,
+    "id": 81,
+    "internalId": 81,
     "name": "magma_cube",
     "displayName": "Magma Cube",
     "width": 0.52,
@@ -2238,8 +2259,8 @@
     ]
   },
   {
-    "id": 81,
-    "internalId": 81,
+    "id": 82,
+    "internalId": 82,
     "name": "mangrove_boat",
     "displayName": "Mangrove Boat",
     "width": 1.375,
@@ -2264,8 +2285,8 @@
     ]
   },
   {
-    "id": 82,
-    "internalId": 82,
+    "id": 83,
+    "internalId": 83,
     "name": "mangrove_chest_boat",
     "displayName": "Mangrove Boat with Chest",
     "width": 1.375,
@@ -2290,8 +2311,8 @@
     ]
   },
   {
-    "id": 83,
-    "internalId": 83,
+    "id": 84,
+    "internalId": 84,
     "name": "mannequin",
     "displayName": "Mannequin",
     "width": 0.6,
@@ -2322,8 +2343,8 @@
     ]
   },
   {
-    "id": 84,
-    "internalId": 84,
+    "id": 85,
+    "internalId": 85,
     "name": "marker",
     "displayName": "Marker",
     "width": 0.0,
@@ -2342,8 +2363,8 @@
     ]
   },
   {
-    "id": 85,
-    "internalId": 85,
+    "id": 86,
+    "internalId": 86,
     "name": "minecart",
     "displayName": "Minecart",
     "width": 0.98,
@@ -2367,8 +2388,8 @@
     ]
   },
   {
-    "id": 86,
-    "internalId": 86,
+    "id": 87,
+    "internalId": 87,
     "name": "mooshroom",
     "displayName": "Mooshroom",
     "width": 0.9,
@@ -2398,8 +2419,8 @@
     ]
   },
   {
-    "id": 87,
-    "internalId": 87,
+    "id": 88,
+    "internalId": 88,
     "name": "mule",
     "displayName": "Mule",
     "width": 1.3964844,
@@ -2430,8 +2451,8 @@
     ]
   },
   {
-    "id": 88,
-    "internalId": 88,
+    "id": 89,
+    "internalId": 89,
     "name": "nautilus",
     "displayName": "Nautilus",
     "width": 0.875,
@@ -2463,8 +2484,8 @@
     ]
   },
   {
-    "id": 89,
-    "internalId": 89,
+    "id": 90,
+    "internalId": 90,
     "name": "oak_boat",
     "displayName": "Oak Boat",
     "width": 1.375,
@@ -2489,8 +2510,8 @@
     ]
   },
   {
-    "id": 90,
-    "internalId": 90,
+    "id": 91,
+    "internalId": 91,
     "name": "oak_chest_boat",
     "displayName": "Oak Boat with Chest",
     "width": 1.375,
@@ -2515,8 +2536,8 @@
     ]
   },
   {
-    "id": 91,
-    "internalId": 91,
+    "id": 92,
+    "internalId": 92,
     "name": "ocelot",
     "displayName": "Ocelot",
     "width": 0.6,
@@ -2546,8 +2567,8 @@
     ]
   },
   {
-    "id": 92,
-    "internalId": 92,
+    "id": 93,
+    "internalId": 93,
     "name": "ominous_item_spawner",
     "displayName": "Ominous Item Spawner",
     "width": 0.25,
@@ -2567,8 +2588,8 @@
     ]
   },
   {
-    "id": 93,
-    "internalId": 93,
+    "id": 94,
+    "internalId": 94,
     "name": "painting",
     "displayName": "Painting",
     "width": 0.5,
@@ -2589,8 +2610,8 @@
     ]
   },
   {
-    "id": 94,
-    "internalId": 94,
+    "id": 95,
+    "internalId": 95,
     "name": "pale_oak_boat",
     "displayName": "Pale Oak Boat",
     "width": 1.375,
@@ -2615,8 +2636,8 @@
     ]
   },
   {
-    "id": 95,
-    "internalId": 95,
+    "id": 96,
+    "internalId": 96,
     "name": "pale_oak_chest_boat",
     "displayName": "Pale Oak Boat with Chest",
     "width": 1.375,
@@ -2641,8 +2662,8 @@
     ]
   },
   {
-    "id": 96,
-    "internalId": 96,
+    "id": 97,
+    "internalId": 97,
     "name": "panda",
     "displayName": "Panda",
     "width": 1.3,
@@ -2677,8 +2698,8 @@
     ]
   },
   {
-    "id": 97,
-    "internalId": 97,
+    "id": 98,
+    "internalId": 98,
     "name": "parched",
     "displayName": "Parched",
     "width": 0.6,
@@ -2705,8 +2726,8 @@
     ]
   },
   {
-    "id": 98,
-    "internalId": 98,
+    "id": 99,
+    "internalId": 99,
     "name": "parrot",
     "displayName": "Parrot",
     "width": 0.5,
@@ -2738,8 +2759,8 @@
     ]
   },
   {
-    "id": 99,
-    "internalId": 99,
+    "id": 100,
+    "internalId": 100,
     "name": "phantom",
     "displayName": "Phantom",
     "width": 0.9,
@@ -2767,8 +2788,8 @@
     ]
   },
   {
-    "id": 100,
-    "internalId": 100,
+    "id": 101,
+    "internalId": 101,
     "name": "pig",
     "displayName": "Pig",
     "width": 0.9,
@@ -2800,8 +2821,8 @@
     ]
   },
   {
-    "id": 101,
-    "internalId": 101,
+    "id": 102,
+    "internalId": 102,
     "name": "piglin",
     "displayName": "Piglin",
     "width": 0.6,
@@ -2832,8 +2853,8 @@
     ]
   },
   {
-    "id": 102,
-    "internalId": 102,
+    "id": 103,
+    "internalId": 103,
     "name": "piglin_brute",
     "displayName": "Piglin Brute",
     "width": 0.6,
@@ -2861,8 +2882,8 @@
     ]
   },
   {
-    "id": 103,
-    "internalId": 103,
+    "id": 104,
+    "internalId": 104,
     "name": "pillager",
     "displayName": "Pillager",
     "width": 0.6,
@@ -2891,8 +2912,8 @@
     ]
   },
   {
-    "id": 104,
-    "internalId": 104,
+    "id": 105,
+    "internalId": 105,
     "name": "polar_bear",
     "displayName": "Polar Bear",
     "width": 1.4,
@@ -2922,8 +2943,60 @@
     ]
   },
   {
-    "id": 105,
-    "internalId": 105,
+    "id": 106,
+    "internalId": 106,
+    "name": "poplar_boat",
+    "displayName": "Poplar Boat",
+    "width": 1.375,
+    "height": 0.5625,
+    "type": "other",
+    "category": "Vehicles",
+    "metadataKeys": [
+      "shared_flags",
+      "air_supply",
+      "custom_name",
+      "custom_name_visible",
+      "silent",
+      "no_gravity",
+      "pose",
+      "ticks_frozen",
+      "hurt",
+      "hurtdir",
+      "damage",
+      "paddle_left",
+      "paddle_right",
+      "bubble_time"
+    ]
+  },
+  {
+    "id": 107,
+    "internalId": 107,
+    "name": "poplar_chest_boat",
+    "displayName": "Poplar Boat with Chest",
+    "width": 1.375,
+    "height": 0.5625,
+    "type": "other",
+    "category": "Vehicles",
+    "metadataKeys": [
+      "shared_flags",
+      "air_supply",
+      "custom_name",
+      "custom_name_visible",
+      "silent",
+      "no_gravity",
+      "pose",
+      "ticks_frozen",
+      "hurt",
+      "hurtdir",
+      "damage",
+      "paddle_left",
+      "paddle_right",
+      "bubble_time"
+    ]
+  },
+  {
+    "id": 108,
+    "internalId": 108,
     "name": "splash_potion",
     "displayName": "Splash Potion",
     "width": 0.25,
@@ -2943,8 +3016,8 @@
     ]
   },
   {
-    "id": 106,
-    "internalId": 106,
+    "id": 109,
+    "internalId": 109,
     "name": "lingering_potion",
     "displayName": "Lingering Potion",
     "width": 0.25,
@@ -2964,8 +3037,8 @@
     ]
   },
   {
-    "id": 107,
-    "internalId": 107,
+    "id": 110,
+    "internalId": 110,
     "name": "pufferfish",
     "displayName": "Pufferfish",
     "width": 0.7,
@@ -2994,8 +3067,8 @@
     ]
   },
   {
-    "id": 108,
-    "internalId": 108,
+    "id": 111,
+    "internalId": 111,
     "name": "rabbit",
     "displayName": "Rabbit",
     "width": 0.49,
@@ -3025,8 +3098,8 @@
     ]
   },
   {
-    "id": 109,
-    "internalId": 109,
+    "id": 112,
+    "internalId": 112,
     "name": "ravager",
     "displayName": "Ravager",
     "width": 1.95,
@@ -3054,8 +3127,8 @@
     ]
   },
   {
-    "id": 110,
-    "internalId": 110,
+    "id": 113,
+    "internalId": 113,
     "name": "salmon",
     "displayName": "Salmon",
     "width": 0.7,
@@ -3084,8 +3157,8 @@
     ]
   },
   {
-    "id": 111,
-    "internalId": 111,
+    "id": 114,
+    "internalId": 114,
     "name": "sheep",
     "displayName": "Sheep",
     "width": 0.9,
@@ -3115,8 +3188,8 @@
     ]
   },
   {
-    "id": 112,
-    "internalId": 112,
+    "id": 115,
+    "internalId": 115,
     "name": "shulker",
     "displayName": "Shulker",
     "width": 1.0,
@@ -3146,8 +3219,8 @@
     ]
   },
   {
-    "id": 113,
-    "internalId": 113,
+    "id": 116,
+    "internalId": 116,
     "name": "shulker_bullet",
     "displayName": "Shulker Bullet",
     "width": 0.3125,
@@ -3166,8 +3239,8 @@
     ]
   },
   {
-    "id": 114,
-    "internalId": 114,
+    "id": 117,
+    "internalId": 117,
     "name": "silverfish",
     "displayName": "Silverfish",
     "width": 0.4,
@@ -3194,8 +3267,8 @@
     ]
   },
   {
-    "id": 115,
-    "internalId": 115,
+    "id": 118,
+    "internalId": 118,
     "name": "skeleton",
     "displayName": "Skeleton",
     "width": 0.6,
@@ -3223,8 +3296,8 @@
     ]
   },
   {
-    "id": 116,
-    "internalId": 116,
+    "id": 119,
+    "internalId": 119,
     "name": "skeleton_horse",
     "displayName": "Skeleton Horse",
     "width": 1.3964844,
@@ -3254,8 +3327,8 @@
     ]
   },
   {
-    "id": 117,
-    "internalId": 117,
+    "id": 120,
+    "internalId": 120,
     "name": "slime",
     "displayName": "Slime",
     "width": 0.52,
@@ -3283,8 +3356,8 @@
     ]
   },
   {
-    "id": 118,
-    "internalId": 118,
+    "id": 121,
+    "internalId": 121,
     "name": "small_fireball",
     "displayName": "Small Fireball",
     "width": 0.3125,
@@ -3304,8 +3377,8 @@
     ]
   },
   {
-    "id": 119,
-    "internalId": 119,
+    "id": 122,
+    "internalId": 122,
     "name": "sniffer",
     "displayName": "Sniffer",
     "width": 1.9,
@@ -3336,8 +3409,8 @@
     ]
   },
   {
-    "id": 120,
-    "internalId": 120,
+    "id": 123,
+    "internalId": 123,
     "name": "snowball",
     "displayName": "Snowball",
     "width": 0.25,
@@ -3357,8 +3430,8 @@
     ]
   },
   {
-    "id": 121,
-    "internalId": 121,
+    "id": 124,
+    "internalId": 124,
     "name": "snow_golem",
     "displayName": "Snow Golem",
     "width": 0.7,
@@ -3386,8 +3459,8 @@
     ]
   },
   {
-    "id": 122,
-    "internalId": 122,
+    "id": 125,
+    "internalId": 125,
     "name": "spawner_minecart",
     "displayName": "Minecart with Monster Spawner",
     "width": 0.98,
@@ -3411,8 +3484,8 @@
     ]
   },
   {
-    "id": 123,
-    "internalId": 123,
+    "id": 126,
+    "internalId": 126,
     "name": "spectral_arrow",
     "displayName": "Spectral Arrow",
     "width": 0.5,
@@ -3434,8 +3507,8 @@
     ]
   },
   {
-    "id": 124,
-    "internalId": 124,
+    "id": 127,
+    "internalId": 127,
     "name": "spider",
     "displayName": "Spider",
     "width": 1.4,
@@ -3463,8 +3536,8 @@
     ]
   },
   {
-    "id": 125,
-    "internalId": 125,
+    "id": 128,
+    "internalId": 128,
     "name": "spruce_boat",
     "displayName": "Spruce Boat",
     "width": 1.375,
@@ -3489,8 +3562,8 @@
     ]
   },
   {
-    "id": 126,
-    "internalId": 126,
+    "id": 129,
+    "internalId": 129,
     "name": "spruce_chest_boat",
     "displayName": "Spruce Boat with Chest",
     "width": 1.375,
@@ -3515,8 +3588,8 @@
     ]
   },
   {
-    "id": 127,
-    "internalId": 127,
+    "id": 130,
+    "internalId": 130,
     "name": "squid",
     "displayName": "Squid",
     "width": 0.8,
@@ -3545,8 +3618,8 @@
     ]
   },
   {
-    "id": 128,
-    "internalId": 128,
+    "id": 131,
+    "internalId": 131,
     "name": "stray",
     "displayName": "Stray",
     "width": 0.6,
@@ -3573,8 +3646,8 @@
     ]
   },
   {
-    "id": 129,
-    "internalId": 129,
+    "id": 132,
+    "internalId": 132,
     "name": "strider",
     "displayName": "Strider",
     "width": 0.9,
@@ -3605,8 +3678,37 @@
     ]
   },
   {
-    "id": 130,
-    "internalId": 130,
+    "id": 133,
+    "internalId": 133,
+    "name": "sulfur_cube",
+    "displayName": "Sulfur Cube",
+    "width": 0.49,
+    "height": 0.49,
+    "type": "mob",
+    "category": "Hostile mobs",
+    "metadataKeys": [
+      "shared_flags",
+      "air_supply",
+      "custom_name",
+      "custom_name_visible",
+      "silent",
+      "no_gravity",
+      "pose",
+      "ticks_frozen",
+      "living_entity_flags",
+      "health",
+      "effect_particles",
+      "effect_ambience",
+      "arrow_count",
+      "stinger_count",
+      "sleeping_pos",
+      "mob_flags",
+      "size"
+    ]
+  },
+  {
+    "id": 134,
+    "internalId": 134,
     "name": "tadpole",
     "displayName": "Tadpole",
     "width": 0.4,
@@ -3635,8 +3737,8 @@
     ]
   },
   {
-    "id": 131,
-    "internalId": 131,
+    "id": 135,
+    "internalId": 135,
     "name": "text_display",
     "displayName": "Text Display",
     "width": 0.0,
@@ -3675,8 +3777,8 @@
     ]
   },
   {
-    "id": 132,
-    "internalId": 132,
+    "id": 136,
+    "internalId": 136,
     "name": "tnt",
     "displayName": "Primed TNT",
     "width": 0.98,
@@ -3697,8 +3799,8 @@
     ]
   },
   {
-    "id": 133,
-    "internalId": 133,
+    "id": 137,
+    "internalId": 137,
     "name": "tnt_minecart",
     "displayName": "Minecart with TNT",
     "width": 0.98,
@@ -3722,8 +3824,8 @@
     ]
   },
   {
-    "id": 134,
-    "internalId": 134,
+    "id": 138,
+    "internalId": 138,
     "name": "trader_llama",
     "displayName": "Trader Llama",
     "width": 0.9,
@@ -3756,8 +3858,8 @@
     ]
   },
   {
-    "id": 135,
-    "internalId": 135,
+    "id": 139,
+    "internalId": 139,
     "name": "trident",
     "displayName": "Trident",
     "width": 0.5,
@@ -3781,8 +3883,8 @@
     ]
   },
   {
-    "id": 136,
-    "internalId": 136,
+    "id": 140,
+    "internalId": 140,
     "name": "tropical_fish",
     "displayName": "Tropical Fish",
     "width": 0.5,
@@ -3811,8 +3913,8 @@
     ]
   },
   {
-    "id": 137,
-    "internalId": 137,
+    "id": 141,
+    "internalId": 141,
     "name": "turtle",
     "displayName": "Turtle",
     "width": 1.2,
@@ -3843,8 +3945,8 @@
     ]
   },
   {
-    "id": 138,
-    "internalId": 138,
+    "id": 142,
+    "internalId": 142,
     "name": "vex",
     "displayName": "Vex",
     "width": 0.4,
@@ -3872,8 +3974,8 @@
     ]
   },
   {
-    "id": 139,
-    "internalId": 139,
+    "id": 143,
+    "internalId": 143,
     "name": "villager",
     "displayName": "Villager",
     "width": 0.6,
@@ -3905,8 +4007,8 @@
     ]
   },
   {
-    "id": 140,
-    "internalId": 140,
+    "id": 144,
+    "internalId": 144,
     "name": "vindicator",
     "displayName": "Vindicator",
     "width": 0.6,
@@ -3934,8 +4036,8 @@
     ]
   },
   {
-    "id": 141,
-    "internalId": 141,
+    "id": 145,
+    "internalId": 145,
     "name": "wandering_trader",
     "displayName": "Wandering Trader",
     "width": 0.6,
@@ -3965,8 +4067,8 @@
     ]
   },
   {
-    "id": 142,
-    "internalId": 142,
+    "id": 146,
+    "internalId": 146,
     "name": "warden",
     "displayName": "Warden",
     "width": 0.9,
@@ -3994,8 +4096,8 @@
     ]
   },
   {
-    "id": 143,
-    "internalId": 143,
+    "id": 147,
+    "internalId": 147,
     "name": "wind_charge",
     "displayName": "Wind Charge",
     "width": 0.3125,
@@ -4014,8 +4116,8 @@
     ]
   },
   {
-    "id": 144,
-    "internalId": 144,
+    "id": 148,
+    "internalId": 148,
     "name": "witch",
     "displayName": "Witch",
     "width": 0.6,
@@ -4044,8 +4146,8 @@
     ]
   },
   {
-    "id": 145,
-    "internalId": 145,
+    "id": 149,
+    "internalId": 149,
     "name": "wither",
     "displayName": "Wither",
     "width": 0.9,
@@ -4076,8 +4178,8 @@
     ]
   },
   {
-    "id": 146,
-    "internalId": 146,
+    "id": 150,
+    "internalId": 150,
     "name": "wither_skeleton",
     "displayName": "Wither Skeleton",
     "width": 0.7,
@@ -4104,8 +4206,8 @@
     ]
   },
   {
-    "id": 147,
-    "internalId": 147,
+    "id": 151,
+    "internalId": 151,
     "name": "wither_skull",
     "displayName": "Wither Skull",
     "width": 0.3125,
@@ -4125,8 +4227,8 @@
     ]
   },
   {
-    "id": 148,
-    "internalId": 148,
+    "id": 152,
+    "internalId": 152,
     "name": "wolf",
     "displayName": "Wolf",
     "width": 0.6,
@@ -4162,8 +4264,8 @@
     ]
   },
   {
-    "id": 149,
-    "internalId": 149,
+    "id": 153,
+    "internalId": 153,
     "name": "zoglin",
     "displayName": "Zoglin",
     "width": 1.3964844,
@@ -4191,8 +4293,8 @@
     ]
   },
   {
-    "id": 150,
-    "internalId": 150,
+    "id": 154,
+    "internalId": 154,
     "name": "zombie",
     "displayName": "Zombie",
     "width": 0.6,
@@ -4222,8 +4324,8 @@
     ]
   },
   {
-    "id": 151,
-    "internalId": 151,
+    "id": 155,
+    "internalId": 155,
     "name": "zombie_horse",
     "displayName": "Zombie Horse",
     "width": 1.3964844,
@@ -4253,8 +4355,8 @@
     ]
   },
   {
-    "id": 152,
-    "internalId": 152,
+    "id": 156,
+    "internalId": 156,
     "name": "zombie_nautilus",
     "displayName": "Zombie Nautilus",
     "width": 0.875,
@@ -4287,8 +4389,8 @@
     ]
   },
   {
-    "id": 153,
-    "internalId": 153,
+    "id": 157,
+    "internalId": 157,
     "name": "zombie_villager",
     "displayName": "Zombie Villager",
     "width": 0.6,
@@ -4321,8 +4423,8 @@
     ]
   },
   {
-    "id": 154,
-    "internalId": 154,
+    "id": 158,
+    "internalId": 158,
     "name": "zombified_piglin",
     "displayName": "Zombified Piglin",
     "width": 0.6,
@@ -4352,8 +4454,8 @@
     ]
   },
   {
-    "id": 155,
-    "internalId": 155,
+    "id": 159,
+    "internalId": 159,
     "name": "player",
     "displayName": "Player",
     "width": 0.6,
@@ -4385,8 +4487,8 @@
     ]
   },
   {
-    "id": 156,
-    "internalId": 156,
+    "id": 160,
+    "internalId": 160,
     "name": "fishing_bobber",
     "displayName": "Fishing Bobber",
     "width": 0.25,
@@ -4405,8 +4507,5 @@
       "hooked_entity",
       "biting"
     ]
-  },
-  {
-    
   }
 ]

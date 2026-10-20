@@ -1,0 +1,34 @@
+{
+  "versao": "26.3",
+  "como": "ordem de registro de EntityTypes.<clinit> no client 26.3 do LabyMod (javap -c), conferida contra o wire: spawn_entity de jogador chega com type=159 em três jogadores distintos",
+  "tabela": "client-26.3.jar · net/minecraft/world/entity/EntityTypes.class (bytecode) + wire do servidor LAN do dono",
+  "total": 161,
+  "idMaximo": 160,
+  "shaMapa": "e1a54bb072fe070c863ad16ffea000871151026fb0063fc4876ba0539667d8e7",
+  "testemunhas": {
+    "cushion": 33,
+    "dark_oak_boat": 34,
+    "dolphin": 36,
+    "player": 159,
+    "sulfur_cube": 133,
+    "poplar_boat": 106,
+    "poplar_chest_boat": 107,
+    "zombie_horse": 155,
+    "zombified_piglin": 158,
+    "fishing_bobber": 160,
+    "armadillo": 4,
+    "allay": 2,
+    "acacia_boat": 0,
+    "glow_squid": 62,
+    "bat": 10,
+    "salmon": 113,
+    "item": 72,
+    "oak_boat": 90
+  },
+  "novas": [
+    "cushion",
+    "poplar_boat",
+    "poplar_chest_boat",
+    "sulfur_cube"
+  ]
+}
