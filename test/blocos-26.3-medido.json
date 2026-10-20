@@ -1,0 +1,137 @@
+{
+  "origem": {
+    "fonte": "registro de blocos do SERVIDOR vanilla 26.3 (o jar do dono)",
+    "jar": "versions/26.3/server-26.3.jar",
+    "sha256Jar": "a362163eec5d1612d520772bc16e5b39c09e3b234fdc045f56bf544284ee8ae6",
+    "metodo": "bootstrap do vanilla: BuiltInRegistries.BLOCK (id = posicao no registro) + StateDefinition (estados) + getCollisionShape (caixa de colisao). Instrumento: test/vanilla/DumpBlocos.java",
+    "medidoEm": "2026-10-20",
+    "nota": "A medicao vem do servidor, nao de deducao. Esta guarda depende de ancoragem externa: se a 26.3 mudar, ela envelhece e a re-extracao do jar e o caminho — ela nao descobre sozinha."
+  },
+  "total": 1286,
+  "totalEstados": 35723,
+  "shaMapa": "54039709477fb452e650bdaa3d2b2f6fefcfd9aac5ab2cc6dfb3898d8cbf4de3",
+  "shaEstados": "a87b73428c3c07ba06c99224e3d46a1f626f2927e4b8ab8785fb031dc55baa3b",
+  "shaFormas": "62444395b75aa2776dc32a908c17bf46f9ceebe74eaddfa62951fc7889f2973a",
+  "testemunhas": {
+    "air": {
+      "id": 0,
+      "minStateId": 0,
+      "maxStateId": 0,
+      "defaultState": 0
+    },
+    "stone": {
+      "id": 1,
+      "minStateId": 1,
+      "maxStateId": 1,
+      "defaultState": 1
+    },
+    "grass_block": {
+      "id": 8,
+      "minStateId": 8,
+      "maxStateId": 9,
+      "defaultState": 9
+    },
+    "dirt": {
+      "id": 9,
+      "minStateId": 10,
+      "maxStateId": 10,
+      "defaultState": 10
+    },
+    "short_grass": {
+      "id": 140,
+      "minStateId": 2363,
+      "maxStateId": 2363,
+      "defaultState": 2363
+    },
+    "snow": {
+      "id": 325,
+      "minStateId": 8589,
+      "maxStateId": 8596,
+      "defaultState": 8589
+    },
+    "cobweb": {
+      "id": 139,
+      "minStateId": 2362,
+      "maxStateId": 2362,
+      "defaultState": 2362
+    },
+    "water": {
+      "id": 37,
+      "minStateId": 89,
+      "maxStateId": 104,
+      "defaultState": 89
+    },
+    "torch": {
+      "id": 238,
+      "minStateId": 4926,
+      "maxStateId": 4926,
+      "defaultState": 4926
+    },
+    "oak_planks": {
+      "id": 13,
+      "minStateId": 15,
+      "maxStateId": 15,
+      "defaultState": 15
+    },
+    "oak_log": {
+      "id": 51,
+      "minStateId": 139,
+      "maxStateId": 141,
+      "defaultState": 140
+    },
+    "oak_slab": {
+      "id": 653,
+      "minStateId": 15177,
+      "maxStateId": 15182,
+      "defaultState": 15180
+    },
+    "white_carpet": {
+      "id": 592,
+      "minStateId": 14743,
+      "maxStateId": 14743,
+      "defaultState": 14743
+    },
+    "poplar_planks": {
+      "id": 23,
+      "minStateId": 27,
+      "maxStateId": 27,
+      "defaultState": 27
+    },
+    "poplar_log": {
+      "id": 60,
+      "minStateId": 166,
+      "maxStateId": 168,
+      "defaultState": 167
+    },
+    "sulfur": {
+      "id": 1088,
+      "minStateId": 28044,
+      "maxStateId": 28044,
+      "defaultState": 28044
+    },
+    "cinnabar": {
+      "id": 1102,
+      "minStateId": 29283,
+      "maxStateId": 29283,
+      "defaultState": 29283
+    },
+    "bamboo_planks": {
+      "id": 24,
+      "minStateId": 28,
+      "maxStateId": 28,
+      "defaultState": 28
+    },
+    "smooth_stone": {
+      "id": 677,
+      "minStateId": 15321,
+      "maxStateId": 15321,
+      "defaultState": 15321
+    },
+    "smooth_stone_slab": {
+      "id": 678,
+      "minStateId": 15322,
+      "maxStateId": 15327,
+      "defaultState": 15325
+    }
+  }
+}
