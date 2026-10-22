@@ -7531,7 +7531,11 @@
           "container",
           [
             {
-              "name": "longDistance",
+              "name": "particle",
+              "type": "Particle"
+            },
+            {
+              "name": "overrideLimiter",
               "type": "bool"
             },
             {
@@ -7551,28 +7555,36 @@
               "type": "f64"
             },
             {
-              "name": "offsetX",
+              "name": "xDist",
               "type": "f32"
             },
             {
-              "name": "offsetY",
+              "name": "yDist",
               "type": "f32"
             },
             {
-              "name": "offsetZ",
+              "name": "zDist",
               "type": "f32"
             },
             {
-              "name": "velocityOffset",
+              "name": "xMaxSpeed",
               "type": "f32"
             },
             {
-              "name": "amount",
-              "type": "i32"
+              "name": "yMaxSpeed",
+              "type": "f32"
             },
             {
-              "name": "particle",
-              "type": "Particle"
+              "name": "zMaxSpeed",
+              "type": "f32"
+            },
+            {
+              "name": "count",
+              "type": "varint"
+            },
+            {
+              "name": "randomizationType",
+              "type": "varint"
             }
           ]
         ],
